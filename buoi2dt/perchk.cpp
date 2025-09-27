@@ -12,6 +12,11 @@ int main()
     for(long long i = 0; i < n; i++)
     {
         long long x; cin >> x;
+        if(x > n || x < 1) 
+        {
+            cout << "NO" << endl;
+            return 0;
+        }
         a[x] = 1;
     }
 
