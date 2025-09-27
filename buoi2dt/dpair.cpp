@@ -16,15 +16,15 @@ int main()
 
     long long cnt = 0;
 
-    for(auto &x : mp)
+    for(long long i = -1000; i <= 1000; i++)
     {
-        if(k + x.first != x.first)
+        if(k != 0 && mp[i] > 0)
         {
-            cnt += mp[k + x.first] * x.second;
+            cnt += mp[k + i] * mp[i];
         }
         else
         {
-            cnt += (x.second * (x.second - 1)) / 2;
+            cnt += (mp[i] * (mp[i] - 1));
         }
     }
 
