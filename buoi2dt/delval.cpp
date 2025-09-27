@@ -21,8 +21,7 @@ int main()
         mp[x]--;
     }
 
-    reverse(a.begin(), a.end());
-    for(int i = 0; i < a.size(); i++)
+    for(int i = a.size() - 1; i >= 0; i--)
     {
         if(mp[a[i]] > 0)
         {
@@ -31,12 +30,8 @@ int main()
         else
         {
             a.erase(a.begin() + i);
-            i--;
         }
     }
-
-    reverse(a.begin(), a.end());
-
     for(auto &x : a) cout << x << " ";
 
     return 0;
