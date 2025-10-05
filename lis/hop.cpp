@@ -16,7 +16,6 @@ int main()
     sort(a.begin(), a.end(), cmp);
 
     vector<long long>lis;
-    vector<long long>flis;
     long long f[n]; memset(f, -1, sizeof(f));
     long long mxl = -1;
 
@@ -26,7 +25,6 @@ int main()
         if(it == lis.end())
         {
             lis.push_back(a[i].second);
-            flis.push_back(i);
             f[i] = lis.size();
             mxl = i;
         }
@@ -42,7 +40,7 @@ int main()
     long long kb = mxl;
     for(long long i = mxl - 1; i >= 0; i--)
     {
-        if(a[kb].first >= a[i].second && f[kb] > f[i])
+        if(a[kb].first > a[i].second && f[kb] > f[i])
         {
             kq.push_back(a[i]);
             kb = i;
