@@ -10,7 +10,6 @@ int main()
     for(long long i = 0; i < n; i++) cin >> a[i];
 
     vector<long long>lis;
-    vector<long long>flis;
     long long f[n];
     memset(f, -1, sizeof(f));
     // f = loca[i-th - 1]
@@ -22,7 +21,6 @@ int main()
         if(it == lis.end())
         {
             lis.push_back(a[i]);
-            flis.push_back(i);
             f[i] = lis.size();
             mxl = i;
         }
