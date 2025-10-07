@@ -7,3 +7,4 @@
 |2+|[prets10](./prets10/readme.md)|Đề ôn thi tuyển sinh 10 chuyên tin|
 |3-|[dynamicprogramming](./dynamicprogramming/readme.md)|Quy hoạch động|
 |3/3+|[lis](./lis/readme.md)|Quy hoạch động - Dãy con tăng dài nhất (LIS)|
+|4|[buoi4dt](./buoi4dt/readme.md)|Quy hoạch động - Dãy con có tổng bằng S (Subset Sum)|
