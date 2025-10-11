@@ -8,3 +8,4 @@
 |3-|[dynamicprogramming](./dynamicprogramming/readme.md)|Quy hoạch động|
 |3/3+|[lis](./lis/readme.md)|Quy hoạch động - Dãy con tăng dài nhất (LIS)|
 |4|[buoi4dt](./buoi4dt/readme.md)|Quy hoạch động - Dãy con có tổng bằng S (Subset Sum)|
+|5|[buoi5dt](./buoi5dt/readme.md)|Quy hoạch động - Dãy con chung tăng dài nhất (LCS)|
