@@ -6,3 +6,4 @@ Problemset: [problemset.pdf](./problemset.pdf)
 |---|---|
 |1|[daycon.cpp](./daycon.cpp)|
 |2|[duongthuy.cpp](./duongthuy.cpp)|
+|3|[xaudx.cpp](./xaudx.cpp)|
