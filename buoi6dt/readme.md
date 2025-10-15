@@ -20,4 +20,5 @@ OJ: [vnoi](https://oj.vnoi.info/contest/hsghs_11hsg1516)
 
 |Problem|Solution|
 |---|---|
-|1|[hcm.cpp](./hcn.cpp)|
+|1|[hcn.cpp](./hcn.cpp)|
+|2|[matma.cpp](./matma.cpp)|
