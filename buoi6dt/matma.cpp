@@ -14,7 +14,7 @@ void cs()
         char x; cin >> x;
         s += x;
         mp[x]++;
-        if(mp[x] > mx)
+        if((mp[x] > mx) || (mp[x] == mx && x < mxchar))
         {
             mx = mp[x];
             mxchar = x;
@@ -30,7 +30,7 @@ void cs()
         {
             s += s[i];
             mp[s[i]]++;
-            if(mp[s[i]] > mx)
+            if((mp[s[i]] > mx) || (mp[s[i]] == mx && s[i] < mxchar))
             {
                 mx = mp[s[i]];
                 mxchar = s[i];
