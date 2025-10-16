@@ -15,7 +15,7 @@ int main()
         cin >> x >> y >> z >> t;
         a[i].first = x;
         a[i].second = z;
-        if(x >= mx)
+        if(x > mx)
         {
             mx = x;
             hx = i;
@@ -26,7 +26,7 @@ int main()
     
     for(long long i = 0; i < n; i++)
     {
-        if(i != hx && a[i].second <= mz)
+        if(i != hx && a[i].second < mz)
         {
             mz = a[i].second;
             hz = i;
