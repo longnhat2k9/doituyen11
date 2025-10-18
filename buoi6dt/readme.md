@@ -22,3 +22,4 @@ OJ: [vnoi](https://oj.vnoi.info/contest/hsghs_11hsg1516)
 |---|---|
 |1|[hcn.cpp](./hcn.cpp)|
 |2|[matma.cpp](./matma.cpp)|
+|3|[qua.cpp](./qua.cpp)|
