@@ -14,3 +14,6 @@ Problemset: [problemset.pdf](./problemset.pdf)
 |[8] Rút tiền tự động ATM|[atm.cpp](./atm.cpp)|
 |[9] Cái túi|[balo.cpp](./balo.cpp)|
 |[10] Người du lịch|[tourism.cpp](./tourism.cpp)|
+|[11] Đường đi|[duong.cpp](./duong.cpp)|
+|[12] Rút tiền tự động ATM 2|[atm2.cpp](./atm2.cpp)|
+|[13] Cái túi 2|[balo2.cpp](./balo2.cpp)|
