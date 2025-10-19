@@ -54,7 +54,8 @@ int main()
     for(int i = 1; i <= n; i++) cin >> a[i];
 
     cs(1, 0);
-    print();
+    if(sz == 40) cout << -1;
+    else print();
 
     return 0;
 }
