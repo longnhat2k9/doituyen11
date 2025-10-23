@@ -22,6 +22,7 @@ Problemset: [problemset.pdf](./problemset.pdf)
 
 ## Part 2: Another exercise (from real exams)
 |Problem|Sources|Solution|
+|---|---|---|
 |1|HSG 11 - 2011|[son.cpp](./son.cpp)|
 |2|HSG 11 - 2016 - 2017|[transport.cpp](./transport.cpp)|
 |3|HSG 11 - 2015 - 2016|[qua.cpp](./qua.cpp)|
