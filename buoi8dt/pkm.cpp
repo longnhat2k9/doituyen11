@@ -2,7 +2,7 @@
 using namespace std;
 
 string pkm;
-long long cap = 0, tongcap = 0;
+long long cap = -1, tongcap = 0;
 
 void cs()
 {
