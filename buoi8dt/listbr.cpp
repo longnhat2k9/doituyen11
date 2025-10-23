@@ -3,16 +3,24 @@ using namespace std;
 
 int n, f[30];
 stack<int>st;
+vector<string>s;
+
+void print()
+{
+    reverse(s.begin(), s.end());
+    for(auto &x : s) cout << x << endl;
+}
 
 void exp()
 {
     if(!st.empty()) return;
+    string ngoac = "";
     for(int i = 1; i <= n; i++)
     {
-        if(f[i] == 1) cout << "(";
-        else cout << ")";
+        if(f[i] == 1) ngoac += "(";
+        else ngoac += ")";
     }
-    cout << endl;
+    s.push_back(ngoac);
 }
 
 void cs(int j)
@@ -48,6 +56,8 @@ int main()
     cin >> n;
     if(n % 2 == 1) return 0;
     cs(2);
+
+    print();
 
     return 0;
 }
