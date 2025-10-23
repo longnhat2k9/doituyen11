@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+string pkm;
+long long cap = 0, tongcap = 0;
+
+void cs()
+{
+    cin.ignore();
+    string s; getline(cin, s);
+    long long m, k, r, cnt = 0; cin >> m >> k >> r;
+    while(m / k > 0)
+    {
+        cnt += m / k;
+        long long tmp = m - (m / k) * k + (m / k) * r;
+        m = tmp;
+    }
+    cout << cnt << " ";
+    tongcap += cnt;
+    if(cap < cnt)
+    {
+        cap = cnt;
+        pkm = s;
+    }
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(0); cin.tie(0);
+
+    long long t; cin >> t;
+    while(t--) cs();
+    cout << endl << tongcap << endl << pkm << endl;
+
+    return 0;
+}
