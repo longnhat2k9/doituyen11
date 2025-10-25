@@ -9,12 +9,7 @@ void cs()
     cin.ignore();
     string s; getline(cin, s);
     long long m, k, r, cnt = 0; cin >> m >> k >> r;
-    while(m / k > 0)
-    {
-        cnt += m / k;
-        long long tmp = m - (m / k) * k + (m / k) * r;
-        m = tmp;
-    }
+    if(m >= k) cnt = (m - k) / (k - r) + 1;
     cout << cnt << " ";
     tongcap += cnt;
     if(cap < cnt)
