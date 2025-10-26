@@ -1,35 +1,29 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-long long n, s, cnt = 0; 
-long long a[6000], d[6000], dp[6000];
+long long n, s; 
+long long a[6000], f[6000], sum = 0, cnt = 0;
 
-void cs(long long j, long long sum)
+void cs(int j)
 {
-    for(long long i = dp[j - 1] + 1; i <= n; i++)
+    for(long long i = 0; i <= 1; i++)
     {
-        if(d[i] == 0)
-        {
-            d[i] = 1;
-            sum += a[i];
-            dp[j] = i;
-            if(sum < s) cs(j + 1, sum);
-            else if(sum == s) cnt++;
-            sum -= a[i];
-            d[i] = 0;
-        }
+        f[j] = i;
+        if(i == 1) sum += a[j];
+        if(sum < s && j < n) cs(j + 1);
+        else if(sum == s) cnt++;
+        if(i == 1) sum -= a[j];
     }
 }
 
-int main()
-{
-    ios_base::sync_with_stdio(0); cin.tie(0);
+int main() {
+	ios_base::sync_with_stdio(0); cin.tie(0);
 
-    memset(d, 0, sizeof(d));
-    memset(dp, 0, sizeof(dp));
+    memset(f, 0, sizeof(f));
     cin >> n >> s;
-    for(long long i = 1; i <= n; i++) cin >> a[i];
+    for(long long i = 0; i < n; i++) cin >> a[i];
+    cs(0);
+    cout << cnt;
 
-    cs(1, 0);
-    cout << cnt % 123456789;
+    return 0;
 }
