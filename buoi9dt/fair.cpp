@@ -45,11 +45,11 @@ void sub2()
             if(dp[j] > 0)
             {
                 dp[j + a[i]] += dp[j];
+                dp[j + a[i]] %= 123456789;
                 sum = max(sum, j + a[i]);
             } 
         }
     }
-    dp[s] %= 123456789;
     long long ans = dp[s];
     cout << ans << endl;
 }
