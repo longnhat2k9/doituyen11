@@ -13,3 +13,4 @@
 |7/7+/8/8+|[buoi7dt](./buoi7dt/readme.md)|Quy hoạch động - Đệ quy - Quay lui (Recusion and backtracking)|
 |8-/8/8+/9|[buoi8dt](./buoi8dt/readme.md)|Đề thi thử (PreHSG) 2017 - 2018| 
 |9/9+/10/10+|[buoi9dt](./buoi9dt/readme.md)|Đề Hà Tĩnh 2020 - 2021|
+|11-/11/11+|[buoi10dt](./buoi11dt/readme.md)|Đề Hà Tĩnh 2021 - 2022|
