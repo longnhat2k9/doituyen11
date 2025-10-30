@@ -7,3 +7,4 @@ OJ: [vnoi](https://oj.vnoi.info/contest/hsghs_11hsg2223)
 |---|---|
 |1|[bridge.cpp](./bridge.cpp)|
 |2|[game.cpp](./game.cpp)|
+|3|[reward.cpp](./reward.cpp)|
