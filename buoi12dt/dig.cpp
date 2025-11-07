@@ -1,30 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-long long conv2(long long n)
+long long sum(long long n)
 {
-    long long sum = 0;
-    while(n > 0)
-    {
-        sum += n % 10;
-        n /= 10;
-    }
-    return sum;
-}
-
-long long conv1(long long a, long long b) 
-{
-    long long sum = 0;
-    for(long long i = a; i <= b; i++) sum += conv2(i);
-    return sum;
+    n %= 18;
+    long long s = ((n * (n + 1)) / 2) % 9;
+    return s;
 }
 
 void cs()
 {
     long long a, b; cin >> a >> b;
-    long long sum = conv1(a, b);
-    while(sum > 9) sum = conv2(sum);
-    cout << sum << endl;
+    long long s = sum(b) - sum(a - 1);
+    while(s <= 0) s += 9;
+    cout << s << endl;
 }
 
 int main()
