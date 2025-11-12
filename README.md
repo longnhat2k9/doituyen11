@@ -14,3 +14,4 @@
 |8-/8/8+/9|[buoi8dt](./buoi8dt/readme.md)|Đề thi thử (PreHSG) 2017 - 2018| 
 |9/9+/10/10+|[buoi9dt](./buoi9dt/readme.md)|Đề Hà Tĩnh 2020 - 2021|
 |11-/11/11+|[buoi11dt](./buoi11dt/readme.md)|Đề Hà Tĩnh 2022 - 2023|
+|12/12+|[buoi12dt](./buoi12dt/readme.md)|Ôn tập 4/11|
