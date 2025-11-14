@@ -1,0 +1,13 @@
+# Solution List
+
+|Problem|OJ|Solution|
+|---|---|---|
+|[Xâu con dài nhất](./xaucon.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_xcdn)|[xaucon.cpp](./xaucon.cpp)|
+|[Số đẹp](./sodep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_sd)|[]()|
+|[Mật khẩu](./matkhau.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_mk)|[matkhau.cpp](./matkhau.cpp)|
+|[Hộp quà](./hopqua.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_hq)|[]()|
+|[Domino](./domino.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_domino)|[domino.cpp](./domino.cpp)|
+|[Chia dãy số](./chiaba.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_cds)|[chiaba.cpp](./chiaba.cpp)|
+|[Dãy số đẹp](./daysodep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_dsd)|[]()|
+|[Cắt dây thép](./catthep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_cdt)|[]()|
+|[Biểu thức](./bieuthuc.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_bt)|[bieuthuc.cpp](./bieuthuc.cpp)|
