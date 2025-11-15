@@ -9,5 +9,5 @@
 |[Domino](./domino.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_domino)|[domino.cpp](./domino.cpp)|
 |[Chia dãy số](./chiaba.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_cds)|[chiaba.cpp](./chiaba.cpp)|
 |[Dãy số đẹp](./daysodep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_dsd)|[]()|
-|[Cắt dây thép](./catthep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_cdt)|[]()|
+|[Cắt dây thép](./catthep.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_cdt)|[catthep.cpp](./catthep.cpp)|
 |[Biểu thức](./bieuthuc.pdf)|[vnoi](https://oj.vnoi.info/problem/hsghs_bt)|[bieuthuc.cpp](./bieuthuc.cpp)|
