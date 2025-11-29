@@ -15,4 +15,5 @@
 |9/9+/10/10+|[buoi9dt](./buoi9dt/readme.md)|Đề Hà Tĩnh 2020 - 2021|
 |11-/11/11+|[buoi11dt](./buoi11dt/readme.md)|Đề Hà Tĩnh 2022 - 2023|
 |12/12+|[buoi12dt](./buoi12dt/readme.md)|Ôn tập 4/11|
+|18/18+/19/19+|[binsearch](./binsearch/readme.md)|Chặt nhị phân|
 |15/15+/16/16+/17/17+|[buoi15dt](./buoi15dt/readme.md)|Ôn tập 14/11 & 21/11|
