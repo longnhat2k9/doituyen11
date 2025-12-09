@@ -8,7 +8,6 @@ int main()
     ios_base::sync_with_stdio(0); cin.tie(0);
 
     long long n; cin >> n;
-    n %= mod;
 
     __int128 gt = 1;
     __int128 ans = 1;
@@ -17,6 +16,7 @@ int main()
     {
         gt *= i; gt %= mod;
         ans += gt; ans %= mod;
+        if(gt == 0) break;
     }
 
     n = ans; cout << n << endl;
