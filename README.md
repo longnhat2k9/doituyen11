@@ -18,3 +18,4 @@
 |15/15+/16/16+/17/17+|[buoi15dt](./buoi15dt/readme.md)|Ôn tập 14/11 & 21/11|
 |18/18+/19/19+|[binsearch](./binsearch/readme.md)|Chặt nhị phân|
 |20/20+|[buoi20dt](./buoi20dt/readme.md)|Ôn tập 28/11|
+|22/22+|[buoi22dt](./buoi22dt/readme.md)|Ôn tập 10/12|
