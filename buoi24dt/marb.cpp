@@ -1,32 +1,31 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-long long m, n, k; 
-long long a[300];
-long long tong = 0, ans = 0;
-
-void cs(long long j)
-{
-    for(long long i = a[j - 1]; i <= min(k, n - tong); i++)
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    long long n, m, k; cin >> n >> m >> k;
+    long long d[300][300];
+    memset(d, 0, sizeof(d));
+    d[0][0] = 1;
+    
+    for(long long v = 1; v <= k; v++)
     {
-        tong += i;
-        a[j] = i;
-        if(tong < n && j < m) cs(j + 1);
-        else if(tong == n) ans++;
-        tong -= i;
+        for(long long s = v; s <= n; s++)
+        {
+            for(long long h = 1; h <= m; h++)
+            {
+                d[s][h] += d[s - v][h - 1];
+            }
+        }
     }
-}
-
-int main()
-{
-    ios_base::sync_with_stdio(0); cin.tie(0);
-
-    cin >> n >> m >> k;
-    memset(a, 0, sizeof(a));
-    a[0] = 1;
-
-    cs(1);
+    
+    long long ans = 0;
+    for(long long i = 1; i <= m; i++) ans += d[n][i];
+    
     cout << ans << endl;
-
+    
     return 0;
 }
