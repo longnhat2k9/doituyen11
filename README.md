@@ -21,3 +21,4 @@
 |21/21+/22/22+|[buoi21dt](./buoi21dt/readme.md)|Ôn tập 5/12|
 |22/22+|[buoi22dt](./buoi22dt/readme.md)|Ôn tập 10/12|
 |24/24+/25|[buoi24dt](./buoi24dt/readme.md)|Đề Hà Tĩnh 2020 - 2021|
+|25/25+/26/26+|[buoi25dt](./buoi25dt/readme.md)|Đề Hải Phòng 2025 - 2026|
