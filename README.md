@@ -20,3 +20,4 @@
 |20/20+|[buoi20dt](./buoi20dt/readme.md)|Ôn tập 28/11|
 |22/22+|[buoi22dt](./buoi22dt/readme.md)|Ôn tập 10/12|
 |24/24+/25|[buoi24dt](./buoi24dt/readme.md)|Đề Hà Tĩnh 2020 - 2021|
+|26/26+/27/27+|[buoi26dt](./buoi26dt/readme.md)|Đề Liên Trường| 
