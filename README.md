@@ -24,3 +24,5 @@
 |26/26+/27/27+|[buoi26dt](./buoi26dt/readme.md)|Đề Liên Trường| 
 |25/25+/26/26+|[buoi25dt](./buoi25dt/readme.md)|Đề Hải Phòng 2025 - 2026|
 |-28/28/28+|[buoi28dt](./buoi28dt/readme.md)|Đề ôn 6/1|
+|Last|[lastpart](./lastpart/readme.md)|Các bài tập tuần cuối|
+|Last|[lastcontest](./lastcontest/readme.md)|Các bài thi ở tuần cuối|
